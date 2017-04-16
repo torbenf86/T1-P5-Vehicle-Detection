@@ -117,5 +117,7 @@ Here's an example result showing the heatmap from a series of frames of video, t
 
 ####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+The algorithm is far away from being real time capable. To achieve real time capability, it would be better to rely on CNNs in combination with a powerful graphic card. Support vector machines seem to be too slow for this application.
+
+Also, there is still room for improvements what concerns the heatmap algorithm. For example, the information of a detected car could be used in the next frame, like in P4 when detecting the lane lines. 
 
